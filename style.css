@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4BC791;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Question styling */
+.question {
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #333333;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* Options styling */
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+/* Active effect (when clicked) */
+.option:active {
+    background-color: #e0e0e0;
+    transform: scale(0.98);
+}
+
+/* Button styling */
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #333333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+.start-quiz{
+    margin-left: 38%;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Add to your style.css */
+.option {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.option.selected {
+    background-color: #cce5ff; /* Light blue color for selected */
+}
+
+.timer{
+    width: 40px;
+    background-color: #c7834b;
+    padding: 20px;
+}
