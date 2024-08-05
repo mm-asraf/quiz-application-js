@@ -374,10 +374,10 @@ function handleNextQuestion() {
 
   Promise.all(finalValue).then((results) => {
     if (results.includes('win')) {
-      Swal.fire("Correct!");
+   
     } 
   }).catch((err) => {
-    Swal.fire("Wrong!");
+  
   });
 }
 
